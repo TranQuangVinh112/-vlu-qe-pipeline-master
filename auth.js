@@ -2,7 +2,7 @@ function login(username, password) {
     if (username === "admin" && password === "123") {
         return true;
     }
-
+// Updated login logic for feature branch
     if (username === "") {
         throw new Error("Username cannot be empty");
     }
